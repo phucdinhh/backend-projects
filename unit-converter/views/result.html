@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Conversion Result</title>
+  <link rel="stylesheet" href="/result.css">
+</head>
+<body>
+  <h2>Conversion Result</h2>
+  <div class="result">
+    <!-- Result will be displayed here -->
+  </div>
+  <a href="/length">Convert another length</a><br>
+  <a href="/temperature">Convert temperature</a><br>
+  <a href="/weight">Convert weight</a>
+  <script>
+    const urlSearchParams = new URLSearchParams(window.location.search);
+    const result = urlSearchParams.get('result');
+    const from = urlSearchParams.get('from');
+    const to = urlSearchParams.get('to');
+    const value = urlSearchParams.get('value');
+    if (result) {
+      document.querySelector('.result').innerHTML = `${value} ${from} = ${result} ${to}`;
+    } else {
+      document.querySelector('.result').innerHTML = 'Conversion failed. Please try again.';
+    }
+  
+  </script>
+</body>
+</html>

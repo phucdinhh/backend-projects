@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Temperature Converter</title>
+  <link rel="stylesheet" href="/form.css">
+</head>
+<body>
+  <h2>Temperature Converter</h2>
+  <form method="POST" target="_self">
+    <input type="number" name="value" step="any" placeholder="Enter temperature" required />
+    <select name="from">
+      <option value="celsius">Celsius</option>
+      <option value="fahrenheit">Fahrenheit</option>
+      <option value="kelvin">Kelvin</option>
+    </select>
+    to
+    <select name="to">
+      <option value="celsius">Celsius</option>
+      <option value="fahrenheit">Fahrenheit</option>
+      <option value="kelvin">Kelvin</option>
+    </select>
+    <button type="submit">Convert</button>
+  </form>
+
+  <nav>
+    <a href="/length">Go to Length</a> |
+    <a href="/weight">Go to Weight</a>
+  </nav>
+</body>
+</html>
