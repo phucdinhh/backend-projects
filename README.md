@@ -1,0 +1,74 @@
+# Backend Projects
+
+A collection of backend projects built with Node.js, including both CLI tools and web applications. These projects are sample solutions for various programming challenges from [roadmap.sh](https://roadmap.sh/).
+
+## Projects
+
+### 1. Unit Converter
+
+A web-based unit converter application that supports:
+
+- Length conversions (mm, cm, m, km, inch, foot, yard, mile)
+- Weight conversions (mg, g, kg, oz, lb)
+- Temperature conversions (Celsius, Fahrenheit, Kelvin)
+- Clean and intuitive web interface
+
+[View Project](./unit-converter)
+
+### 2. Task Tracker CLI
+
+A command-line task management tool featuring:
+
+- Task creation and management
+- Status tracking (todo, in-progress, done)
+- Task listing with filters
+- Color-coded output
+- Persistent storage
+
+[View Project](./task-tracker-cli)
+
+### 3. Number Guessing Game
+
+An interactive command-line game with:
+
+- Multiple difficulty levels
+- High score tracking
+- Adaptive hints
+- Time-based scoring system
+
+[View Project](./number-guessing-game)
+
+### 4. GitHub User Activity CLI
+
+A CLI tool to fetch and display GitHub user activities:
+
+- Shows recent public events
+- Supports multiple event types (Push, PR, Watch, Fork, etc.)
+- Clean event formatting
+- Simple command-line interface
+
+[View Project](./github-user-activity)
+
+### 5. Expense Tracker CLI
+
+A command-line expense management system with:
+
+- Expense tracking with descriptions and amounts
+- Listing and filtering capabilities
+- Monthly summaries and statistics
+- Data persistence using JSON storage
+
+[View Project](./expense-tracker)
+
+## Getting Started
+
+Each project has its own README with specific installation and usage instructions. Navigate to the project directories for more details.
+
+## Common Requirements
+
+- Node.js >= 18
+- npm or pnpm package manager
+
+## License
+
+All projects are licensed under the ISC License.
