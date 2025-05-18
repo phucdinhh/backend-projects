@@ -6,6 +6,8 @@ A collection of backend projects built with Node.js, including both CLI tools an
 
 ### 1. Unit Converter
 
+Sample solution for the [Unit Converter](https://roadmap.sh/projects/unit-converter) challenge from [roadmap.sh](https://roadmap.sh/).
+
 A web-based unit converter application that supports:
 
 - Length conversions (mm, cm, m, km, inch, foot, yard, mile)
@@ -16,6 +18,8 @@ A web-based unit converter application that supports:
 [View Project](./unit-converter)
 
 ### 2. Task Tracker CLI
+
+Sample solution for the [Task Tracker](https://roadmap.sh/projects/task-tracker) challenge from [roadmap.sh](https://roadmap.sh/).
 
 A command-line task management tool featuring:
 
@@ -29,6 +33,8 @@ A command-line task management tool featuring:
 
 ### 3. Number Guessing Game
 
+Sample solution for the [Number Guessing Game](https://roadmap.sh/projects/number-guessing-game) challenge from [roadmap.sh](https://roadmap.sh/).
+
 An interactive command-line game with:
 
 - Multiple difficulty levels
@@ -40,6 +46,8 @@ An interactive command-line game with:
 
 ### 4. GitHub User Activity CLI
 
+Sample solution for the [GitHub API Tool](https://roadmap.sh/projects/github-api-tool) challenge from [roadmap.sh](https://roadmap.sh/).
+
 A CLI tool to fetch and display GitHub user activities:
 
 - Shows recent public events
@@ -50,6 +58,8 @@ A CLI tool to fetch and display GitHub user activities:
 [View Project](./github-user-activity)
 
 ### 5. Expense Tracker CLI
+
+Sample solution for the [Expense Tracker](https://roadmap.sh/projects/expense-tracker) challenge from [roadmap.sh](https://roadmap.sh/).
 
 A command-line expense management system with:
 
