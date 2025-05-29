@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <h1>Dashboard</h1>
+  <a href="/admin/add">Add New Article</a>
+  <ul>
+    <% articles.forEach(article => { 
+      const slug = `${article.date}-${article.title.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`;
+    %>
+      <li>
+        <%= article.title %> - <%= article.date %> |
+        <a href="/admin/edit/<%= slug %>">Edit</a> |
+        <form method="POST" action="/admin/delete/<%= slug %>" style="display:inline;">
+          <button type="submit">Delete</button>
+        </form>
+      </li>
+    <% }) %>
+  </ul>
+</body>
+</html>

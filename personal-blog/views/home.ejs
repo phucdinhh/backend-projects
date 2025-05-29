@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Personal Blog</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <h1>Personal Blog</h1>
+  <ul>
+    <% articles.forEach(article => { %>
+      <li style="display: flex; justify-content: space-between;">
+        <a href="/article/<%= article.date %>-<%= article.title.toLowerCase().replace(/[^a-z0-9]+/g, '-') %>"><%= article.title %></a>
+        <span><%= article.date %></span>
+      </li>
+    <% }) %>
+  </ul>
+</body>
+</html>
