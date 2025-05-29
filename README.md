@@ -70,6 +70,18 @@ A command-line expense management system with:
 
 [View Project](./expense-tracker)
 
+### 6. Personal Project
+
+Sample solution for the [Personal Project](https://roadmap.sh/projects/personal-blog) challenge from [roadmap.sh](https://roadmap.sh/).
+
+A custom backend project showcasing unique features and problem-solving skills:
+
+- Designed and implemented from scratch
+- Includes detailed documentation
+- Demonstrates advanced Node.js concepts and best practices
+
+[View Project](./personal-project)
+
 ## Getting Started
 
 Each project has its own README with specific installation and usage instructions. Navigate to the project directories for more details.
