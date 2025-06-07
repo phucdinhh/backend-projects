@@ -82,6 +82,22 @@ A custom backend project showcasing unique features and problem-solving skills:
 
 [View Project](./personal-project)
 
+### 7. Weather API Wrapper Service
+
+Sample solution for the [Weather API](https://roadmap.sh/projects/weather-api-wrapper-service) challenge from [roadmap.sh](https://roadmap.sh/).
+
+A full-stack weather application with a Next.js frontend and Node.js backend, featuring real-time weather data with intelligent caching:
+
+- Real-time weather data fetching
+- Intelligent caching using Redis
+- Search history tracking
+- Favorite locations management
+- Responsive design with modern UI components
+- Debounced search functionality
+- Local storage persistence for user preferences
+
+[View Project](./weather-api-wrapper-service)
+
 ## Getting Started
 
 Each project has its own README with specific installation and usage instructions. Navigate to the project directories for more details.
