@@ -100,6 +100,8 @@ A full-stack weather application with a Next.js frontend and Node.js backend, fe
 
 ### 8. Blogging Platform API
 
+Sample solution for the [Blogging Platform API](https://roadmap.sh/projects/blogging-platform-api) challenge from [roadmap.sh](https://roadmap.sh/).
+
 A RESTful API for managing blog posts with features including:
 
 - Complete CRUD operations for posts
