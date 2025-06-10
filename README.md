@@ -98,6 +98,18 @@ A full-stack weather application with a Next.js frontend and Node.js backend, fe
 
 [View Project](./weather-api-wrapper-service)
 
+### 8. Blogging Platform API
+
+A RESTful API for managing blog posts with features including:
+
+- Complete CRUD operations for posts
+- Search functionality with regex support
+- Category and tag organization
+- Input validation and error handling
+- MongoDB integration
+
+[View Project](./blogging-platform-api)
+
 ## Getting Started
 
 Each project has its own README with specific installation and usage instructions. Navigate to the project directories for more details.
